@@ -12,11 +12,11 @@ texto2 = ["1", "2", "3"]
 lista7 = [x ++ " " ++ y | x <- texto, y <- texto2]
 
 main =
-  print lista >>
-  print lista2 >>
-  print lista3 >>
-  print (funcao [0..20]) >>
-  print lista4 >>
-  print lista5 >>
-  print lista6 >>
-  print lista7
+    print lista >>
+    print lista2 >>
+    print lista3 >>
+    print (funcao [0..20]) >>
+    print lista4 >>
+    print lista5 >>
+    print lista6 >>
+    print lista7
